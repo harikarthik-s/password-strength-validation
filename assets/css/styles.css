@@ -115,6 +115,7 @@ input[type=password]::input-placeholder {
     line-height: 1.2;
     text-align: center;
     border-radius: 2px;
+    padding: 5px;
     color: rgba(71, 87, 98, 0.8);
     background: linear-gradient(to right, #00AD7C 50%, #eee 50%);
     background-size: 201% 100%;
