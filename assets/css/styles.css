@@ -20,6 +20,7 @@ body {
 }
 
 input[type=password]::-webkit-input-placeholder {
+    font-size: 15px;
     color: rgba(71, 87, 98, 0.8);
 }
 
@@ -64,7 +65,7 @@ input[type=password]::input-placeholder {
     color: #475762;
     font-size: 15px;
     border-radius: 4px;
-    padding: 12px 5px;
+    padding: 12px 12px;
     overflow: hidden;
     outline: none;
     transition: all 0.3s;
@@ -79,7 +80,7 @@ input[type=password]::input-placeholder {
     padding: 2px 10px;
     position: absolute;
     top: 50%;
-    right: 10px;
+    right: 40px;
     transform: translateY(-50%);
     background: #FBD490;
     color: rgba(71, 87, 98, 0.8);
@@ -121,7 +122,7 @@ input[type=password]::input-placeholder {
     transition: background 0.3s;
 }
 
-.lovercase_valid,
+.lowercase_valid,
 .number_valid,
 .uppercase_valid {
     background-position: left !important;
